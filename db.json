@@ -1,0 +1,25 @@
+{
+    "peliculas": [
+        {
+            "id": 1,
+            "name": "El angel de la muerte",
+            "puntaje": "70%",
+            "genero": "Drama, Crimen, Misterio",
+            "img": "./img-peliculas/el-angel-de-la-muerte.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Sin novedad en el frente ",
+            "puntaje": "78%",
+            "genero": "Bélica, Drama, Acción",
+            "img": "./img-peliculas/el-angel-de-la-muerte.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Enola Holmes 2",
+            "puntaje": "77%",
+            "genero": "Misterio, Aventura, Crimen",
+            "img": "./img-peliculas/sin-novedad-al-frente.jpg"
+        }
+    ]
+}
