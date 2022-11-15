@@ -20,6 +20,125 @@
             "puntaje": "77%",
             "genero": "Misterio, Aventura, Crimen",
             "img": "./img-peliculas/sin-novedad-al-frente.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Black Adam",
+            "puntaje": "69%",
+            "genero": "Acción, Fantasía, Ciencia ficción",
+            "img": "./img-peliculas/Black-adam.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Terrifier 2",
+            "puntaje": "70%",
+            "genero": "Terror, Suspense",
+            "img": "./img-peliculas/terrifer-2.jpg"
+        },
+        {
+            "id": 6,
+            "name": "La batalla del lago Changjin II",
+            "puntaje": "66%",
+            "genero": "Bélica, Historia, Acción, Drama",
+            "img": "./img-peliculas/la-battalla-del-lago-changjin.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Lou (2022)",
+            "puntaje": "67%",
+            "genero": "Acción, Suspense, Drama",
+            "img": "./img-peliculas/lou.jpg"
+        },
+        {
+            "id": 8,
+            "name": "La huérfana: Primer asesinato",
+            "puntaje": "68%",
+            "genero": "Terror, Suspense",
+            "img": "./img-peliculas/La huérfana Primer asesinato.jpg"
+        },
+        {
+            "id": 9,
+            "name": "La morada del miedo",
+            "puntaje": "61%",
+            "genero": "Terror",
+            "img": "./img-peliculas/La morada del miedo.jpg"
+        },
+        {
+            "id": 10,
+            "name": "La casa de cera",
+            "puntaje": "59%",
+            "genero": "Terror, Suspense",
+            "img": "./img-peliculas/La casa de cera.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Mundo extraño",
+            "puntaje": "54%",
+            "genero": "Animación, Ciencia ficción, Aventura, Familia",
+            "img": "./img-peliculas/Mundo extraño.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Hasta los huesos: Bones and All",
+            "puntaje": "57%",
+            "genero": "Misterio, Aventura, Crimen",
+            "img": "./img-peliculas/Hasta los huesos Bones and All.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Noche de paz",
+            "puntaje": "50%",
+            "genero": "Acción, Comedia",
+            "img": "./img-peliculas/noche de paz.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Al descubierto",
+            "puntaje": "80%",
+            "genero": "Drama",
+            "img": "./img-peliculas/Al descubierto.jpg"
+        },
+        {
+            "id": 15,
+            "name": "La Espada De Los 47 Ronin",
+            "puntaje": "71%",
+            "genero": "Misterio, Aventura, Crimen",
+            "img": "./img-peliculas/La Espada De Los 47 Ronin.jpg"
+        },
+        {
+            "id": 16,
+            "name": "123 Hugs",
+            "puntaje": "70%",
+            "genero": "Drama",
+            "img": "./img-peliculas/123 HUGS.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Halloween: La Noche Final",
+            "puntaje": "65%",
+            "genero": "Terror, Suspense",
+            "img": "./img-peliculas/Halloween La Noche Final.jpg"
+        },
+        {
+            "id": 18,
+            "name": "The Great Wolf Pack: A Call to Adventure",
+            "puntaje": "65%",
+            "genero": "Animación, Familia",
+            "img": "./img-peliculas/The Great Wolf Pack A Call to Adventure.jpg"
+        },
+        {
+            "id": 19,
+            "name": "¿Por qué me casé también?",
+            "puntaje": "68%",
+            "genero": "Comedia, Romance",
+            "img": "./img-peliculas/me casa.jpg"
+        },
+        {
+            "id": 20,
+            "name": "La gran reunión de Madea",
+            "puntaje": "47%",
+            "genero": "Drama, Comedia, Romance",
+            "img": "./img-peliculas/La gran reunión de Madea.jpg"
         }
     ]
 }
