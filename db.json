@@ -12,14 +12,14 @@
             "name": "Sin novedad en el frente ",
             "puntaje": "78%",
             "genero": "Bélica, Drama, Acción",
-            "img": "./img-peliculas/el-angel-de-la-muerte.jpg"
+            "img": "./img-peliculas/sin-novedad-al-frente.jpg"
         },
         {
             "id": 3,
             "name": "Enola Holmes 2",
             "puntaje": "77%",
             "genero": "Misterio, Aventura, Crimen",
-            "img": "./img-peliculas/sin-novedad-al-frente.jpg"
+            "img": "./img-peliculas/Enola-Holmes-2.jpg"
         },
         {
             "id": 4,
