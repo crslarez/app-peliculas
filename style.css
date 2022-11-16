@@ -14,3 +14,35 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background: var(--verde-bg);
 }
+
+.contonedor-menu{
+    width: 90%;
+    margin: auto;
+    
+}
+
+header{
+    padding: 30px 0;
+}
+
+.contonedor-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Apariencia de la pelicula principal*/
+
+.pelicula-principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    
+
+}
+
