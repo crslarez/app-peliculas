@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Este es el resultado de tu busqueda</h1>
+    <div id="card" class="d-flex gap-3 flex-wrap m-auto justify-content-center"></div>
+
+    <script type="module">
+        import { getMovieByName } from "./index.js"
+        const containerCards = document.getElementById("card");
+        function createCardSearch(movie) {
+            const cards = /*html*/ `
+        <div class="contededor-movie d-flex">
+        <div class="card p-2" style="width: 18rem;">
+        <img src="${movie.img}" class="card-img-top" alt="...">
+        <div class="card-body">
+        <p class="card-text">${movie.name}</p>
+        <p>${movie.puntaje}</p>
+        <p>${movie.genero}</p>
+        </div>
+        </div>
+    `;
+            containerCards.innerHTML += cards;
+        }
+
+        let movieSearch = window.location.search;
+        getMovieByName(movieSearch).then((data) => {
+            console.log(data);
+            data.forEach((e) => {
+                createCardSearch(e);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
